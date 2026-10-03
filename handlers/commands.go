@@ -30,7 +30,7 @@ func getMainMenu(b *tele.Bot) (string, *tele.ReplyMarkup) {
 	menu := &tele.ReplyMarkup{}
 	
 	btnHelp := menu.Data("« ʜᴇʟᴘ »", "help")
-	btnSource := menu.URL("❄️ ꜱᴏᴜʀᴄᴇ ❄️", "https://github.com/hasindu-nagolla/HasiiChatBot")
+		btnSource := menu.URL("❄️ ꜱᴏᴜʀᴄᴇ ❄️", "https://github.com/lakzexe/HasiiChatBot")
 	btnAbout := menu.Data("☁️ ᴀʙᴏᴜᴛ ☁️", "about")
 	
 	btnOwner := menu.URL("🥀 ᴏᴡɴᴇʀ 🥀", "https://t.me/Hasindu_Lakshan")
